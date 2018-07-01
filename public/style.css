@@ -1,0 +1,32 @@
+p {
+  color: darkgoldenrod;
+  font-family: shrikhand , cursive;
+}
+body {
+  background-image: url(img/light-bg1.png);
+  text-align:center; 
+  font-size: 30px;
+}
+.title {
+  font-family: Anton , cursive;
+}
+.start {
+  background-color: pink;
+  display: block;
+  width: 5cm;
+  height: 5cm;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+  line-height: 4cm;
+  border-radius: 5cm;
+  text-decoration: none;
+}
+.start:hover{
+  transition: background-color 1.5s;
+  background-color: lavender;
+}
+.number {
+  font-size: 3cm;
+  width: 400px;
+}
